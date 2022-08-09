@@ -1,0 +1,15 @@
+1. What is Redux?
+Redux is an open-source, JavaScript library used to manage the application state. React uses Redux to build the user interface. It is a predictable state container for JavaScript applications and is used for the entire application’s state management.
+
+2. What are the components of Redux?
+a. Store: Holds the state of the application.
+b. Action: The source information for the store.
+c. Reducer: Specifies how the application's state changes in response to actions sent to the store.
+
+3. What is the Flux?
+a. Flux is the application architecture that Facebook uses for building web applications. It is a method of handling complex data inside a client-side application and manages how data flows in a React application.
+
+b. There is a single source of data (the store) and triggering certain actions is the only way way to update them.The actions call the dispatcher, and then the store is triggered and updated with their own data accordingly.
+
+c. When a dispatch has been triggered, and the store updates, it will emit a change event that the views can rerender accordingly.
+

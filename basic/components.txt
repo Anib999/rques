@@ -1,0 +1,30 @@
+1. What are the components in React?
+Components are the building blocks of any React application, and a single app usually consists of multiple components. A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts that can be processed separately.
+
+There are two types of components in React:
+
+a. Functional Components: These types of components have no state of their own and only contain render methods, and therefore are also called stateless components. They may derive data from other components as props (properties).
+
+b. Class Components: These types of components can hold and manage their own state and have a separate render method to return JSX on the screen. They are also called Stateful components as they can have a state.
+
+2. What is the use of render() in React?
+
+a. It is required for each component to have a render() function. This function returns the HTML, which is to be displayed in the component.
+
+b. If you need to render more than one element, all of the elements must be inside one parent tag like <div>, <form>.
+
+3. What is a state in React?
+
+a. The state is a built-in React object that is used to contain data or information about the component. The state in a component can change over time, and whenever it changes, the component re-renders.
+
+b. The change in state can happen as a response to user action or system-generated events. It determines the behavior of the component and how it will render.
+
+4. What is a higher-order component in React?
+A higher-order component acts as a container for other components. This helps to keep components simple and enables re-usability. They are generally used when multiple components have to use a common logic. 
+
+5. Explain the lifecycle methods of components.
+a. getInitialState(): This is executed before the creation of the component.
+b. componentDidMount(): Is executed when the component gets rendered and placed on the DOM.
+c. shouldComponentUpdate(): Is invoked when a component determines changes to the DOM and returns a “true” or “false” value based on certain conditions.
+d. componentDidUpdate(): Is invoked immediately after rendering takes place.
+e. componentWillUnmount(): Is invoked immediately before a component is destroyed and unmounted permanently.
