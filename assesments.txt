@@ -1,0 +1,43 @@
+tell me about your current job
+
+jsx is js xml syn or sugar coating writng html on js
+
+class is className as class is a reserved keyword
+
+unidirectional meaning parent child relationship
+
+componentdidmount() or useeffect()
+
+what is hoc
+usually starts with with like withRouter-check this
+import {
+  useLocation,
+  useNavigate,
+  useParams
+} from "react-router-dom";
+
+function withRouter(Component) {
+  function ComponentWithRouterProp(props) {
+    let location = useLocation();
+    let navigate = useNavigate();
+    let params = useParams();
+    return (
+      <Component
+        {...props}
+        router={{ location, navigate, params }}
+      />
+    );
+  }
+
+  return ComponentWithRouterProp;
+}
+above is depreceated as of v6
+
+what is a render prop
+
+how to write a custom hook
+use useHook
+
+
+live coding Here
+login using https://www.youtube.com/watch?v=H20LG9TXDKQ&ab_channel=PeterElbaum

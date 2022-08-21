@@ -1,0 +1,6 @@
+map()
+reduce() for sum
+redux is alot more complex
+basic js
+
+Angular is bi directional whereas react is uni directional, Flux has multiple stores whereas redux has a single store. Not sure why these basic concepts are wrongly presented.
