@@ -4,3 +4,25 @@ redux is alot more complex
 basic js
 
 Angular is bi directional whereas react is uni directional, Flux has multiple stores whereas redux has a single store. Not sure why these basic concepts are wrongly presented.
+
+functional scope on variables
+
+data handling
+
+promise try catch
+
+interceptor in axios uses are bearer token
+
+request response with new data every request
+
+action is just a function to trigger
+
+sideeffects
+
+.splice() removes the item
+
+debounce() v important
+used to delay some events
+also used in search fields
+
+eslint=> to show error and warnings 
